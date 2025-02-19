@@ -14,14 +14,24 @@ pnpm dev
 bun dev
 ```
 
-#Create new project
+# Create new project
+
 npx create-next-app@latest --empty
+
+# Install dependencies
 
 npm install tailwindcss @tailwindcss/postcss postcss
 
 npm i lucide-react
 
-npm i @biomejs/biome -
+npm i @biomejs/biome -D
+npx @biomejs/biome init
+
+npm i tailwind-merge
+
+npm i react-hook-form
+
+npm i zod @hookform/resolvers
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
